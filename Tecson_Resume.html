@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="shortcut icon" href="computer.ico" type="image/x-icon" >
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
@@ -12,8 +13,8 @@
 
   <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@800&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@800&family=Montserrat&display=swap" rel="stylesheet">
   <title>Tecson Midterm Resume</title>
 
 
@@ -22,6 +23,7 @@
   <header>
     <!-- NAV BAR -->
     <nav>
+      <!-- HIDDEN SIDEBAR NAV FOR RESPONSIVENESS -->
       <ul class="sidebar">
           <li onclick= hideSidebar()><a href="#" ><svg xmlns="http://www.w3.org/2000/svg" fill="white" height="26" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
           <li><a href="#Home">Home</a></li>
@@ -32,6 +34,7 @@
           <li><a href="#Certificates">Certifications</a></li>
           <li><a href="#contact-section">Contact</a></li>
       </ul>
+      <!-- MAIN NAV BAR -->
       <ul>
           <li><a class="logo" ><img src="public/img/Logo_White.png" alt="Logo"   width="60" height="60"></a></li>
           <li class="hideOnMobile"><a href="#Home">Home</a></li>
@@ -86,38 +89,44 @@
 
     <section id="About" style = "background-color: #9B4819;" >
       <div class="about-flex-container">
-        <!-- TITLE,TEXT -->
+        <!-- TITLE AND TEXT -->
         <div class="about-flex-left">
           <h1 class ="about-title" style="color: #F4F1E8;">About me</h1>
-          <p><span>
-            As of 2023, I find myself in the midst of my third year pursuing a Bachelor of 
-            Science in Information Technology degree. My journey into the world of IT was 
-            driven by a fervent desire to create and contribute to the vast world of technology. 
-            My primary focus is on software development and web development. Thus, I am eager to 
-            gain practical experience in these areas through internships, allowing me to apply what 
-            I've learned in the classroom to real-world projects.
-          </span>
-          <span>  
-            Beyond coding and technology, there's a creative side of me that thrives. 
-            I have a passion for creative writing, which allows me to express my thoughts 
-            and ideas in unique ways. I also dabble in digital painting, even though I may 
-            not consider myself a master artist. Additionally, I find solace in crocheting, 
-            a hobby that allows me to create tangible pieces of art with my hands.
-          </span>
-          <span>
-            Gaming is another one of my hobbies. Among the games I play are Valorant, Stardew Valley,
-            The Witcher, Legend of Zelda: Tears of the Kingdom, and many more. This fascination has
-            kindled my curiosity in the realm of game development, where art and technology 
-            harmoniously intersect to create immersive experiences.
-          </span>
-          <span>
-            Outside the realm of technology and creativity, I dream of traveling the world.
-            My aspiration is to explore different cultures and become adaptable in various 
-            environments. This journey will not only broaden my horizons but also fuel my passion
-            for learning and experiencing the rich diversity our world has to offer. 
-            In every endeavor, I aim to be flexible, open-minded, and always ready to embrace 
-            new challenges and opportunities.
-          </span></p>
+          <p>
+            <!-- paragraph 1 -->
+            <span>
+              As of 2023, I find myself in the midst of my third year pursuing a Bachelor of 
+              Science in Information Technology degree. My journey into the world of IT was 
+              driven by a fervent desire to create and contribute to the vast world of technology. 
+              My primary focus is on software development and web development. Thus, I am eager to 
+              gain practical experience in these areas through internships, allowing me to apply what 
+              I've learned in the classroom to real-world projects.
+            </span>
+            <!-- paragraph 2 -->
+            <span>  
+              Beyond coding and technology, there's a creative side of me that thrives. 
+              I have a passion for creative writing, which allows me to express my thoughts 
+              and ideas in unique ways. I also dabble in digital painting, even though I may 
+              not consider myself a master artist. Additionally, I find solace in crocheting, 
+              a hobby that allows me to create tangible pieces of art with my hands.
+            </span>
+            <!-- paragraph 3 -->
+            <span>
+              Gaming is another one of my hobbies. Among the games I play are Valorant, Stardew Valley,
+              The Witcher, Legend of Zelda: Tears of the Kingdom, and many more. This fascination has
+              kindled my curiosity in the realm of game development, where art and technology 
+              harmoniously intersect to create immersive experiences.
+            </span>
+            <!-- paragraph 4 -->
+            <span>
+              Outside the realm of technology and creativity, I dream of traveling the world.
+              My aspiration is to explore different cultures and become adaptable in various 
+              environments. This journey will not only broaden my horizons but also fuel my passion
+              for learning and experiencing the rich diversity our world has to offer. 
+              In every endeavor, I aim to be flexible, open-minded, and always ready to embrace 
+              new challenges and opportunities.
+            </span>
+          </p>
         </div>
 
         <!-- IMAGE -->
@@ -132,6 +141,7 @@
     <!-- --------------------------------------------------------------------- -->
 
     <section id="Education" style = " background-color: #F4F1E8;">
+    <!-- EDUC TITLE -->
     <div class="single-title-div">
       <h1 class="section-title" style="color: #314028; padding-bottom: 1rem;">Education</h1>
     </div>
@@ -337,62 +347,62 @@
         </div>
         
         <!-- SUBTEXT CATEGORIES -->
-          <div class="categories" style="color: #D16210;"">
-              <ul>
-                  <li>Website Development</li>
-                  <li>App Development</li>
-                  <li>Mobile Development</li>
-              </ul>
-          </div>
-          <!-- PROJECTS CONTAINER -->
-          <div class="projects-container">
-              <!--------------- CARD 1 --------------->
-              <div class="img-card">
-                  <img src="public/img/Backsafe.png" >
-                  <div class="desc">
-                      <p>Backsafe Mobile App</p>
-                  </div>
-              </div>
-              <!--------------- CARD 2 --------------->
-              <div class="img-card">
-                  <img src="public/img/bardic.png" >
-                  <div class="desc">
-                      <p>Custom Discord Music Bot</p>
-                  </div>
-              </div>
+        <div class="categories" style="color: #D16210;"">
+            <ul>
+                <li>Website Development</li>
+                <li>App Development</li>
+                <li>Mobile Development</li>
+            </ul>
+        </div>
+        <!-- PROJECTS CONTAINER -->
+        <div class="projects-container">
+            <!--------------- CARD 1 --------------->
+            <div class="img-card">
+                <img src="public/img/Backsafe.png" >
+                <div class="desc">
+                    <p>Backsafe Mobile App</p>
+                </div>
+            </div>
+            <!--------------- CARD 2 --------------->
+            <div class="img-card">
+                <img src="public/img/bardic.png" >
+                <div class="desc">
+                    <p>Custom Discord Music Bot</p>
+                </div>
+            </div>
 
-              <!--------------- CARD 3 --------------->
-              <div class="img-card">
-                  <img src="public/img/fetcher.png" >
-                  <div class="desc">
-                      <p>Fetcher Mobile App</p>
-                  </div>
-              </div>
+            <!--------------- CARD 3 --------------->
+            <div class="img-card">
+                <img src="public/img/fetcher.png" >
+                <div class="desc">
+                    <p>Fetcher Mobile App</p>
+                </div>
+            </div>
 
-              <!--------------- CARD 4 --------------->
-              <div class="img-card">
-                  <img src="public/img/idris.png" >
-                  <div class="desc">
-                      <p>SDCA Business Center System</p>
-                  </div>
-              </div>
+            <!--------------- CARD 4 --------------->
+            <div class="img-card">
+                <img src="public/img/idris.png" >
+                <div class="desc">
+                    <p>SDCA Business Center System</p>
+                </div>
+            </div>
 
-              <!--------------- CARD 5 --------------->
-              <div class="img-card">
-                  <img src="public/img/westview.png" >
-                  <div class="desc">
-                      <p>Westview Enrollment System</p>
-                  </div>
-              </div>
+            <!--------------- CARD 5 --------------->
+            <div class="img-card">
+                <img src="public/img/westview.png" >
+                <div class="desc">
+                    <p>Westview Enrollment System</p>
+                </div>
+            </div>
 
-              <!--------------- CARD 6 --------------->
-              <div class="img-card">
-                  <img src="public/img/multimedia.png" >
-                  <div class="desc">
-                      <p>Multimedia Portfolio Website</p>
-                  </div>
-              </div>
-          </div>
+            <!--------------- CARD 6 --------------->
+            <div class="img-card">
+                <img src="public/img/multimedia.png" >
+                <div class="desc">
+                    <p>Multimedia Portfolio Website</p>
+                </div>
+            </div>
+        </div>
       </div>
     </section>
 
@@ -418,6 +428,7 @@
             <input type="radio" name="radio-btn" id="radio4">
             <input type="radio" name="radio-btn" id="radio5">
             <!-- Images -->
+
             <!-- img 1 -->
             <div class="img first">
               <img src="/public/img/CreotecICT.jpg" alt="">
@@ -463,54 +474,71 @@
     <!------------------------------- C O N T A C T --- M E  ----------------------------->
     <!-- ------------------------------------------------------------------------------ -->
     <section id="contact-section" style="background-color: #F4F1E8">
+      <!-- CONTACT CONTAINER FOR ALL CONTACT COMPONENTS -->
       <div class="contact-container">
+        <!-- HEADING -->
         <div class="desc-title-div">
           <h1 class="section-title" style="color: #314028; font-size: 3rem ;">Let's Get in Touch!</h1>
         </div>
+        <!-- DESCRIPTION -->
         <p class="description">I'd love to hear from you! :)</p>
+
+        <!-- INPUT CONTAINER/ CONTACT CONTENT-->
         <div class="row input-container">
-            <div class="col-xs-12">
-              <div class="styled-input wide">
-                <input type="text" required />
-                <label>Name</label> 
-              </div>
+          <!-- NAME -->
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <input type="text" required />
+              <label>Name</label> 
             </div>
-            <div class="col-md-6 col-sm-12">
-              <div class="styled-input">
-                <input type="text" required />
-                <label>Email</label> 
-              </div>
+          </div>
+
+          <!-- EMAIL -->
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input">
+              <input type="text" required />
+              <label>Email</label> 
             </div>
-            <div class="col-md-6 col-sm-12">
-              <div class="styled-input" style="float:right;">
-                <input type="text" required />
-                <label>Phone Number</label> 
-              </div>
+          </div>
+
+          <!-- PHONE NUMBER -->
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input" style="float:right;">
+              <input type="text" required />
+              <label>Phone Number</label> 
             </div>
-            <div class="col-xs-12">
-              <div class="styled-input wide">
-                <textarea required></textarea>
-                <label>Message</label>
-              </div>
+          </div>
+
+          <!-- MESSAGE -->
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <textarea required></textarea>
+              <label>Message</label>
             </div>
-            <div class="col-xs-12">
-              <div class="btn btn-two submit-btn">
-                <span>Send Message</span>
-                
-              </div>
+          </div>
+
+          <!-- BUTTON -->
+          <div class="col-xs-12">
+            <div class="btn btn-two submit-btn">
+              <span>Send Message</span>
             </div>
+          </div>
         </div>
       </div>
     </section>  
   </main>
   <!-- ---------------------------------------FOOTER------------------------------------------- -->
   <footer>
+    <!-- FOOTER CONTAINER -->
     <div class="footer">
+      <!-- FOOTER CONTENT -->
       <div class="footer-content">
           <br>
           <br>
+          <!-- FOOTER PARAGRAPH -->
           <p>For inquiries and opportunities, feel free to reach out to me at christinaelletecson@ gmail.com or (123) 456-7890. We can also connect on <a href="https://www.linkedin.com/login"  style="color:#D16210;">LinkedIn: Christina Gabrielle Tecson</a>. 
             I am currently located in Las Pinas City, Metro Manila, Philippines.</p>
+          <!-- SOCMED LINKS -->
           <ul class="socials">
               <li><a href="https://www.facebook.com/gaby.tecson/"><i class="fa fa-facebook"></i></a></li>
               <li><a href="https://www.instagram.com/m_o.rii/"><i class="fa fa-instagram"></i></a></li>
@@ -519,10 +547,8 @@
           </ul>
       </div>
     </div>
-  </footer>
-
-      
-<script type="text/javascript" src="/script.js"></script>
+  </footer>  
+  <script type="text/javascript" src="/script.js"></script>
 </body>
 </html>
 

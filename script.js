@@ -45,3 +45,12 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
     buttons[0].classList.add("carousel__button--selected");
   });
   
+
+  var counter = 2
+  setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++
+    if (counter > 5){
+      counter = 1;
+    }
+  }, 4000);

@@ -131,15 +131,14 @@ nav li{
 }
 nav a {
     height: 100%;
-	padding: 0 30px ;
+	padding: 0 15px ;
     display: flex;
     align-items: center;
 	text-transform: uppercase;
 	text-align: center;
     text-decoration: none;
     color: #F4F1E8;
-	font-size: 1.20rem;
-    letter-spacing: 1px;
+	font-size: 1.15rem;
     
 }
 nav a:hover {
@@ -252,12 +251,10 @@ nav li:first-child{
 /*-------IMAGE CONTAINER-----*/
 .flex-left{
     width: 40%;
-    margin: 5px;
-    padding: 5px;
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 /* ------------DOWNLOAD CV BUTTON----------------- */
@@ -337,11 +334,11 @@ nav li:first-child{
 .about-title{
     font-family: 'Martian Mono', monospace;
     font-size: 4rem;
-    margin: 0 auto;
     letter-spacing: 4px;
     margin-bottom: 2rem;
     position: relative;
     width: max-content;
+    margin-left: 5rem;
 }
 
 .about-title::before{
@@ -368,7 +365,6 @@ nav li:first-child{
     display: flex;
     flex-direction: row;
     height: 100%;
-    /* padding-top: 2rem; */
     padding-bottom: 2rem;
 }
 
@@ -384,7 +380,7 @@ nav li:first-child{
 }
 .about-flex-container .about-flex-left p
 {   
-    font-size: 1.15rem;
+    font-size: 1.20rem;
     margin-left: 5rem;
     text-align: justify;
     color: #F4F1E8;
@@ -399,13 +395,11 @@ nav li:first-child{
 /*-------IMAGE CONTAINER-----*/
 .about-flex-right{
     width: 40%;
-    margin: 5px;
-    padding: 5px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
 }
+
 
 
 /* =================================================== 

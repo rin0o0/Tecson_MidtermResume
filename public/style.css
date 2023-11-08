@@ -63,8 +63,8 @@ ul {
 /* IMG CLASS */
 .cover{
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width: 700px;
+    height: 700px;
 }    
 
 
@@ -200,7 +200,7 @@ nav li:first-child{
 .home-title::before{
     background-color: #F4F1E8;
     animation:
-        typewriter 5s steps(17) 1s forwards;
+        typewriter 8s steps(17) 2s forwards;
         animation-iteration-count: infinite;
         
 }
@@ -209,7 +209,7 @@ nav li:first-child{
     width: 0.125em;
     background: #422815;
     animation:
-        typewriter 5s steps(17) 1s forwards,
+        typewriter 8s steps(17) 2s forwards,
         blink 750ms steps(17) infinite;
         animation-iteration-count: infinite;
 }
@@ -347,7 +347,7 @@ nav li:first-child{
 .about-title::before{
     background-color: #9B4819;
     animation:
-        typewriter 5s steps(8) 1s forwards;
+        typewriter 6s steps(9) 3s forwards;
         animation-iteration-count: infinite;
         
 }
@@ -356,8 +356,8 @@ nav li:first-child{
     width: 0.125em;
     background: #422815;
     animation:
-        typewriter 5s steps(8) 1s forwards,
-        blink 750ms steps(8) infinite;
+        typewriter 6s steps(9) 3s forwards,
+        blink 750ms steps(9) infinite;
         animation-iteration-count: infinite;
 }
 
@@ -368,7 +368,7 @@ nav li:first-child{
     display: flex;
     flex-direction: row;
     height: 100%;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     padding-bottom: 2rem;
 }
 
@@ -379,7 +379,7 @@ nav li:first-child{
     margin: 5px;
     padding: 5px;
     margin-bottom: 5rem;
-    margin-top: 10rem;
+    margin-top: 8rem;
     
 }
 .about-flex-container .about-flex-left p
@@ -416,7 +416,7 @@ nav li:first-child{
 #Education .section-title::before{
     background-color: #F4F1E8;
     animation:
-        typewriter 5s steps(9) 1s forwards;
+        typewriter 6s steps(9) 3s forwards;
         animation-iteration-count: infinite;
         
 }
@@ -425,7 +425,7 @@ nav li:first-child{
     width: 0.125em;
     background: #422815;
     animation:
-        typewriter 5s steps(9) 1s forwards,
+        typewriter 6s steps(9) 3s forwards,
         blink 750ms steps(9) infinite;
         animation-iteration-count: infinite;
 }
@@ -442,7 +442,7 @@ nav li:first-child{
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
     gap: 5rem;
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
     
 }
 
@@ -452,7 +452,7 @@ nav li:first-child{
 }
 
 .educ__content{
-    height: 100%;
+    height: 95%;
     background-color: #F4F1E8;
     border: 4px solid #422815;
     padding: 1rem 1rem 3rem;
@@ -467,7 +467,7 @@ nav li:first-child{
 .educ__border{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 95%;
     border: 4px solid #D16210;
     top:0;
     left: 0;
@@ -509,6 +509,7 @@ nav li:first-child{
     font-size: 1.15rem;
     text-align: justify;
     color: #422815;
+    text-indent: 50px;
 }
 
 /* =================================================== 
@@ -519,7 +520,7 @@ nav li:first-child{
 #Skills .section-title::before{
     background-color: #314028;
     animation:
-        typewriter 5s steps(9) 1s forwards;
+        typewriter 6s steps(9) 3s forwards;
         animation-iteration-count: infinite;
         
 }
@@ -528,7 +529,7 @@ nav li:first-child{
     width: 0.125em;
     background: #422815;
     animation:
-        typewriter 5s steps(9) 1s forwards,
+        typewriter 6s steps(9) 3s forwards,
         blink 750ms steps(9) infinite;
         animation-iteration-count: infinite;
 }
@@ -720,7 +721,7 @@ nav li:first-child{
 #Projects .section-title::before{
     background-color: #F4F1E8;
     animation:
-        typewriter 5s steps(11) 1s forwards;
+        typewriter 6s steps(11) 3s forwards;
         animation-iteration-count: infinite;
         
 }
@@ -729,7 +730,7 @@ nav li:first-child{
     width: 0.125em;
     background: #422815;
     animation:
-        typewriter 5s steps(11) 1s forwards,
+        typewriter 6s steps(11) 3s forwards,
         blink 750ms steps(11) infinite;
         animation-iteration-count: infinite;
 }
@@ -809,7 +810,7 @@ nav li:first-child{
 #Certificates .section-title::before{
     background-color: #9B4819;
     animation:
-        typewriter 5s steps(15) 1s forwards;
+        typewriter 8s steps(15) 2s forwards;
         animation-iteration-count: infinite;
         
 }
@@ -818,7 +819,7 @@ nav li:first-child{
     width: 0.125em;
     background: #422815;
     animation:
-        typewriter 5s steps(15) 1s forwards,
+        typewriter 8s steps(15) 2s forwards,
         blink 750ms steps(15) infinite;
         animation-iteration-count: infinite;
 }
@@ -987,7 +988,7 @@ nav li:first-child{
 #contact-section .section-title::before{
     background-color: #F4F1E8;
     animation:
-        typewriter 5s steps(19) 1s forwards;
+        typewriter 8s steps(19) 2s forwards;
         animation-iteration-count: infinite;
         
 }
@@ -996,7 +997,7 @@ nav li:first-child{
     width: 0.125em;
     background: #422815;
     animation:
-        typewriter 5s steps(19) 1s forwards,
+        typewriter 8s steps(19) 2s forwards,
         blink 750ms steps(19) infinite;
         animation-iteration-count: infinite;
 }
